@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Changes</h1>
+        <div id="compare">
+            In chapter 7, Cairo mainly discussed about graphs of data set that contains values and percentage or frequency of that value in the data set. Chapter 8 discussed about changes of data through a period of time.
+        </div>
+        <h3>Pros and cons of visualization techniques</h3>
+        <div id="difference">
+            A simple technique that we encountered is calculating the difference between each value and the average. This technique helps compare values to the average, to easily see how we are doing compare to the goal. 
+            <figure>
+                <img src="Difference.png" />
+                <figcaption>Difference between each student score and class average</figcaption>
+            </figure>
+            Its disadvantage is rather than comparing, I haven't found any other use of it.
+        </div>
+        <div id="log">
+            Log transformation is another useful technique. It can transfer exponential growth or decline graph into linear graph.
+            <figure>
+                <img src="Log-before.png" />
+                <figcaption>Graph of 2^x</figcaption>
+            </figure>
+            After log transformation:
+            <figure>
+                <img src="Log-after.png" />
+                <figcaption>Graph of 2^x (log10)</figcaption>
+            </figure>
+            But it can only be used for positive data set, and it's hard to observe values such as mean, mode, or median.
+        </div>
+        <div id="scatter">
+            Finally, connected scatter plot. It "works best when turns and swirls don't obscure the data", and is a good replacement for double-axis charts. 
+            <figure>
+                <img src="Scatter.PNG" />
+                <figcaption>A connected scatter plot <br />
+                Source: https://vega.github.io/vega/examples/connected-scatter-plot/</figcaption>
+            </figure>
+            But sometimes, it's just too complicated to read.
+        </div>
+    </body>
+</html>
